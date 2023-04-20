@@ -21,9 +21,15 @@ public class extra12 {
             for(int d=0;d<10;d++){
                 for(int u=0;u<10;u++){
                     if(c==3||d==3||u==3){
-                        if(c==3){}
-                        
-                        
+                        if(c==3){
+                            System.out.print(cl+"-");
+                        }else{System.out.print(c+"-");}
+                        if(d==3){
+                            System.out.print(dl+"-");
+                        }else{System.out.print(d+"-");}                        
+                        if(u==3){
+                            System.out.println(ul);
+                        }else{System.out.println(u);}                        
                     }else{
                          System.out.println(c+"-"+d+"-"+u);
                     }
